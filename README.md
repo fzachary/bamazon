@@ -12,7 +12,7 @@ ___
 To run Bamazon, you will need to install both [MySQL](https://dev.mysql.com/doc/refman/5.6/en/installing.html) and [Node.js](https://nodejs.org/en/download/). 
 
 ### MySQL Database Setup 
-Once you have MySQL installed, you will be able to create the *Bamazon* database and the *products* table using the SQL file [bamazon.sql](bamazon.sql), located in this repository. Run this code inside your MySQL client (e.g. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)) to create and populate the database. You will then be ready to proceed with running the Bamazon customer interface.
+Once MySQL is installed, you will be able to create the *Bamazon* database and the *products* table using the SQL file [bamazon.sql](bamazon.sql) located in this repository. Run this code inside your MySQL client (e.g. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)) to create and populate the database. You will then be ready to proceed with running the Bamazon customer interface.
 
 ### Running Bamazon
 Once you have the database set up, run these commands in the command line:
@@ -28,10 +28,11 @@ ___
 
 ## Customer Demo
 The customer interface:
-1. Presents the customer with a table of all the available products
-2. Asks for the corresponding ID number of the customer's desired product
-3. Asks the customer how many of the desired products they would like to purchase
-4. Confirms the order, processes the hypothetical payment, and updates the product inventory in the database
+1. Presents a table containing all of the available products
+2. Prompts the customer to input the ID number of the customer's desired product
+3. Asks the customer what quantity of the selected product they would like to purchase
+4. Prompts the customer to confirm their order, then processes the hypothetical payment and updates the product inventory in the database
+5. Asks the customer if they would like to continue shopping or end the session
 
 ___
 
