@@ -40,8 +40,8 @@ ___
 * Node.js
 * MySQL
 * NPM Packages:
-    [mysql](https://www.npmjs.com/package/mysql)
-    [inquirer](https://www.npmjs.com/package/inquirer)
+    - [mysql](https://www.npmjs.com/package/mysql)
+    - [inquirer](https://www.npmjs.com/package/inquirer)
 
 ___
 
