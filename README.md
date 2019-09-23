@@ -15,7 +15,7 @@ To run Bamazon, you will need to install both [MySQL](https://dev.mysql.com/doc/
 Once you have MySQL installed, you will be able to create the *Bamazon* database and the *products* table using the SQL file [bamazon.sql](bamazon.sql), located in this repository. Run this code inside your MySQL client (e.g. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)) to create and populate the database. You will then be ready to proceed with running the Bamazon customer interface.
 
 ### Running Bamazon
-Once you have the databased set up, run these commands in the command line:
+Once you have the database set up, run these commands in the command line:
 
 ```
 git clone https://github.com/fzachary/bamazon.git
