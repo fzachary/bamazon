@@ -1,2 +1,58 @@
-# bamazon
+# Bamazon
 Node.js Amazon-like storefront using MySQL and Inquirer packages
+
+___
+
+## Overview
+* This is a command line storefront application that allows a customer to access a database of products for sale and then select and purchase products from that database. The database will then update after each transaction.
+
+___
+
+## Setup
+To run Bamazon, you will need to install both [MySQL](https://dev.mysql.com/doc/refman/5.6/en/installing.html) and [Node.js](https://nodejs.org/en/download/). 
+
+### MySQL Database Setup 
+Once you have MySQL installed, you will be able to create the *Bamazon* database and the *products* table using the SQL file [bamazon.sql](bamazon.sql), located in this repository. Run this code inside your MySQL client (e.g. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)) to create and populate the database. You will then be ready to proceed with running the Bamazon customer interface.
+
+### Running Bamazon
+Once you have the databased set up, run these commands in the command line:
+
+```
+git clone https://github.com/fzachary/bamazon.git
+cd bamazon
+npm install
+node bamazonCustomer.js
+```
+
+___
+
+## Customer Demo
+The customer interface:
+```
+1) Presents the customer with a table of all available products
+2) Asks for the corresponding ID number of the customer's desired product
+3) Asks the user how many of the desired products they would like to purchase
+4) Confirms the order and updates the product inventory in the database
+```
+
+___
+
+## Technologies Used
+* Javascript
+* Node.js
+* MySQL
+* NPM Packages:
+    -[mysql](https://www.npmjs.com/package/mysql)
+    -[inquirer](https://www.npmjs.com/package/inquirer)
+
+___
+
+## Contributing
+To contribute to this application:
+1. Fork the repo
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'add my-new-feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
+___
