@@ -29,10 +29,10 @@ ___
 ## Customer Demo
 The customer interface:
 ```
-1) Presents the customer with a table of all available products
-2) Asks for the corresponding ID number of the customer's desired product
-3) Asks the user how many of the desired products they would like to purchase
-4) Confirms the order and updates the product inventory in the database
+1. Presents the customer with a table of all available products
+2. Asks for the corresponding ID number of the customer's desired product
+3. Asks the user how many of the desired products they would like to purchase
+4. Confirms the order and updates the product inventory in the database
 ```
 
 ___
