@@ -1,5 +1,5 @@
 # Bamazon
-Node.js Amazon-like storefront using MySQL and Inquirer packages
+A Node.js Amazon-like storefront using MySQL and Inquirer packages
 
 ___
 
