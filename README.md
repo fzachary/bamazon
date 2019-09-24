@@ -30,9 +30,9 @@ ___
 The customer interface:
 1. Presents a table containing all of the available products 
 2. Prompts the customer to input the ID number of the customer's desired product ![Table Image](/screenshots/Screenshot1.png)
-3. Asks the customer what quantity of the selected product they would like to purchase ![Insufficient Quantity Image](/screenshots/Screenshot4.png)
-4. Prompts the customer to confirm their order, then processes the hypothetical payment and updates the product inventory in the database
-5. Asks the customer if they would like to continue shopping or end the session ![Transaction Image](/screenshots/Screenshot3.png) ![End Session Image 1](/screenshots/Screenshot5.png) ![End Session Image 2](/screenshots/Screenshot2.png) 
+3. Asks the customer what quantity of the selected product they would like to purchase--if the customer requests a higher quantity of an item than is currently in stock, they are alerted, and asked to start their order again ![Insufficient Quantity Image](/screenshots/Screenshot4.png)
+4. Prompts the customer to confirm their order once they have selected a sufficient quantity of their desired item, then processes the hypothetical payment and updates the product inventory in the database  ![Transaction Image](/screenshots/Screenshot3.png)
+5. Asks the customer if they would like to continue shopping or end the session ![End Session Image 1](/screenshots/Screenshot5.png) ![End Session Image 2](/screenshots/Screenshot2.png) 
 
 ___
 
