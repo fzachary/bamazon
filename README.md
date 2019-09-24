@@ -32,7 +32,7 @@ The customer interface:
 2. Prompts the customer to input the ID number of the customer's desired product ![Table Image](Screenshot1.png)
 3. Asks the customer what quantity of the selected product they would like to purchase
 4. Prompts the customer to confirm their order, then processes the hypothetical payment and updates the product inventory in the database
-5. Asks the customer if they would like to continue shopping or end the session ![Transaction Image](Screenshot2.png) ![End Session Image](Screenshot3.png)
+5. Asks the customer if they would like to continue shopping or end the session ![Transaction Image](Screenshot3.png) ![End Session Image](Screenshot2.png)
 
 ___
 
