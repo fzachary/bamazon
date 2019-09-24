@@ -96,6 +96,7 @@ function chooseProduct() {
 
                 // Tell user there is not enough stock to complete thier purchase
                 console.log("We're sorry. There are not enough items in stock to fulfill your order.");
+                chooseProduct();
                 }
             })
 
