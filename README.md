@@ -4,7 +4,7 @@ A Node.js Amazon-like storefront using MySQL and Inquirer packages
 ___
 
 ## Overview
-* This is a command line storefront application that allows a customer to access a database of products for sale and then select and purchase their desired products. The database will then update after each transaction.
+This is a command line storefront application that allows a customer to access a database of products for sale and then select and purchase their desired products. The database will then update after each transaction.
 
 ___
 
